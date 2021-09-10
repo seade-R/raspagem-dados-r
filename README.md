@@ -13,7 +13,7 @@ Leonardo S. Barone
 
 ### Local, data e hora
 
-Virtual, às terças-feiras, das 9h às 13h.
+Virtual, às sextas-feiras, das 9h às 13h.
 
 ## Programa
 
