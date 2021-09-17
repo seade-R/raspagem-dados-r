@@ -18,11 +18,11 @@ Virtual, às sextas-feiras, das 9h às 13h.
 ## Programa
 
 - [10-09-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-01.md) Aula 1 - Primeiros passos na coleta de dados na internet
-- [17-09-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-02.md) Aula 2 - Raspando uma página em html
+- [17-09-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-02.md) Aula 2 - Raspando uma página em html e uma sequência de páginas com tabela
 - [24-09-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-03.md) 
 - [01-10-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-04.md) 
-- [08-19-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-05.md) 
-- [15-19-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-06.md) - Tópicos Extras
+- [08-10-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-05.md) 
+- [15-10-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-06.md) - Tópicos Extras
 - [22-19-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-07.md) - Tópicos Extras
 
 
