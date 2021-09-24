@@ -207,7 +207,7 @@ library(rvest)
 
 url_base <- "https://search.folha.uol.com.br/search?q=elei%C3%A7%C3%B5es&site=datafolha%2Feleicoes&periodo=todos&skin=datafolha&results_count=725&search_time=0%2C200&url=https%3A%2F%2Fsearch.folha.uol.com.br%2Fsearch%3Fq%3Delei%25C3%25A7%25C3%25B5es%26site%3Ddatafolha%252Feleicoes%26periodo%3Dtodos%26skin%3Ddatafolha&sr="
 
-dados_pesquisa <- data_frame()
+dados_pesquisa <- data.frame()
 
 for (i in 1:29){
   
@@ -286,7 +286,7 @@ for (link in dados_pesquisa$links){
   texto <- html_text(node_texto)
   texto <- paste(texto, collapse = " ")
   
-  tabela_noticia <- data_frame(titulo, datahora, link, texto)
+  tabela_noticia <- data.frame(titulo, datahora, link, texto)
   
   dados_noticias <- bind_rows(dados_noticias, tabela_noticia)
 
@@ -307,7 +307,7 @@ library(rvest)
 
 url_base <- "https://search.folha.uol.com.br/search?q=elei%C3%A7%C3%B5es&site=datafolha%2Feleicoes&periodo=todos&skin=datafolha&results_count=725&search_time=0%2C200&url=https%3A%2F%2Fsearch.folha.uol.com.br%2Fsearch%3Fq%3Delei%25C3%25A7%25C3%25B5es%26site%3Ddatafolha%252Feleicoes%26periodo%3Dtodos%26skin%3Ddatafolha&sr="
 
-dados_pesquisa <- data_frame()
+dados_pesquisa <- data.frame()
 
 for (i in 1:29){
   
@@ -346,7 +346,7 @@ for (link in dados_pesquisa$links){
   texto <- html_text(node_texto)
   texto <- paste(texto, collapse = " ")
   
-  tabela_noticia <- data_frame(titulo, datahora, link, texto)
+  tabela_noticia <- data.frame(titulo, datahora, link, texto)
   
   dados_noticias <- bind_rows(dados_noticias, tabela_noticia)
   
@@ -390,7 +390,7 @@ library(rvest)
 
 url_base <- "https://search.folha.uol.com.br/search?q=elei%C3%A7%C3%B5es&site=datafolha%2Feleicoes&periodo=todos&skin=datafolha&results_count=725&search_time=0%2C200&url=https%3A%2F%2Fsearch.folha.uol.com.br%2Fsearch%3Fq%3Delei%25C3%25A7%25C3%25B5es%26site%3Ddatafolha%252Feleicoes%26periodo%3Dtodos%26skin%3Ddatafolha&sr="
 
-dados_pesquisa <- data_frame()
+dados_pesquisa <- data.frame()
 
 for (i in 1:29){
   
@@ -430,7 +430,7 @@ for (link in dados_pesquisa$links){
     texto <- html_text(node_texto)
     texto <- paste(texto, collapse = " ")
     
-    tabela_noticia <- data_frame(titulo, datahora, link, texto)
+    tabela_noticia <- data.frame(titulo, datahora, link, texto)
     
     dados_noticias <- bind_rows(dados_noticias, tabela_noticia)
   } 
