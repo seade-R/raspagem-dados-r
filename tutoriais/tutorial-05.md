@@ -271,7 +271,7 @@ Pronto. Podemos agora criar um data frame vazio ("dados") e preenchê-lo com os 
 Obs: vamos inserir um "contador" das páginas capturadas com "print(i)". Isso será muito útil quando quisermos capturar um número grande de páginas, pois o contador nos dirá em qual iteração (sic, é sem "n" mesmo) do loop estamos.
 
 ```{r}
-url_base <- "https://www.al.sp.gov.br/alesp/pesquisa-proposicoes/?direction=acima&lastPage=91&currentPage=1&act=detalhe&idDocumento=&rowsPerPage=20&currentPageDetalhe=1&tpDocumento=&method=search&text=seade&natureId=&legislativeNumber=&legislativeYear=&natureIdMainDoc=&anoDeExercicio=&strInitialDate=&strFinalDate=&author=&supporter=&politicalPartyId=&stageId="
+url_base <- "https://www.al.sp.gov.br/alesp/pesquisa-proposicoes/?direction=acima&lastPage=91&currentPage=NUMPAG&act=detalhe&idDocumento=&rowsPerPage=20&currentPageDetalhe=1&tpDocumento=&method=search&text=seade&natureId=&legislativeNumber=&legislativeYear=&natureIdMainDoc=&anoDeExercicio=&strInitialDate=&strFinalDate=&author=&supporter=&politicalPartyId=&stageId="
 
 dados <- data.frame()
 
