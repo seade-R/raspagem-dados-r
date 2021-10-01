@@ -139,7 +139,7 @@ Vamos usar a busca básica, do formulário 2. Em primeiro lugar, criamos um obje
 scielo_form <- scielo_form_list[[2]]
 
 scielo_form
-```{r}
+```
 
 O campo principal de busca, tal como no formulário da Google, tem nome "q" (é comum os nomes se repetirem internet afora, mas não é necessário que sejam sempre os mesmos). Além deste campo, podemos definir um parâmetro de número de resultados por página com o parâmetro "count".
 
