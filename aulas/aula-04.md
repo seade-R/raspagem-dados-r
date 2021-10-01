@@ -12,6 +12,8 @@ Nos tutoriais anteriores vimos com fazer download de documentos, raspar tabelas 
 
 2 - Quando tiver terminado o Tutorial 8, comece o e [Tutorial 9](https://github.com/seade-R/raspagem-dados-r/blob/main/tutoriais/tutorial-09.md) para aprender sobre formulários
 
+3 - Em R "for loops" são ineficientes em comparação a outras funções para iteração. Se quiser aprender um pouco mais iteração em R e as alternativas ao "for loop" recomendo o [Capítulo 21 - Iteration](https://r4ds.had.co.nz/iteration.html) do livro [R for Data Science](https://r4ds.had.co.nz). A versão em inglês é gratuita na internet, mas você pode comprar a tradução em português impressa se achar mais conveniente. Esse é um dos livros mais importantes de introdução à linguagem. 
+
 ## Desafios
 
 Agora que temos elementos suficientes para nos aventurarmos fora dos tutoriais, aqui vão alguns desafios:
