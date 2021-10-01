@@ -76,11 +76,11 @@ google_submission <- session_submit(x = google_session,
 Pronto! Agora basta raspar o resultado como já haviámos feito antes. A página que queremos raspar é o objeto que resulta da função _session\_submit_. Abra o resultado de uma busca no Google e tente entender o código abaixo.
 
 ```{r}
-titulos_nodes <- html_nodes(google_resultado, xpath = "//h3")
+titulos_nodes <- html_nodes(google_submission, xpath = "//h3")
 
 titulos <- html_text(titulos_nodes)
 
-links_nodes <- html_nodes(google_resultado, xpath = "//a")
+links_nodes <- html_nodes(google_submission, xpath = "//a")
 
 links <- html_attr(links_nodes, name = "href")
 
