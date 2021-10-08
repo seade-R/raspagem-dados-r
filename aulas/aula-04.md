@@ -2,7 +2,7 @@
 
 ## Objetivos gerais
 
-Nos tutoriais anteriores vimos com fazer download de documentos, raspar tabelas e outros conteúdos de páginas de html e como automatizar a raspagem apra sequências de páginas. Até agora, porém, apenas adquirimos informação automaticamente e não enviamos a um servidor nenhum tipo de informação. No tutorial único de hoje veremos como preenhcer automaticamente formulários (caixas de busca, caixas de login, etc) para extrair o resultado da busca.
+Nos tutoriais anteriores vimos como fazer download de documentos, raspar tabelas e outros conteúdos de páginas de html e como automatizar a raspagem apra sequências de páginas. Até agora, porém, apenas adquirimos informação automaticamente e não enviamos a um servidor nenhum tipo de informação. No tutorial único de hoje veremos como preenhcer automaticamente formulários (caixas de busca, caixas de login, etc) para extrair o resultado da busca.
 
 ## Roteiro
 
