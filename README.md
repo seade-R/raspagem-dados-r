@@ -20,8 +20,8 @@ Virtual, às sextas-feiras, das 9h às 13h.
 - [21-10-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-02.md) Aula 2 - Raspando uma página em html e uma sequência de páginas com tabela
 - [28-10-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-03.md) Aula 3 - Raspando várias páginas em html de um portal de notícias
 - [04-11-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-04.md) Aula 4 - Formulários na web
-- [11-11-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-05.md) Aula 4 - Acessando APIs com R
-- [18-11-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-06.md) - Tópicos Extras
+- [11-11-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-05.md) Aula 5 - Acessando APIs com R
+- [18-11-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-06.md) - Tópicos Extras - Limpeza e prepração de textos com R
 - [25-11-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-07.md) - Tópicos Extras
 
 ## Informações básicas TURMA 1
@@ -36,8 +36,8 @@ Virtual, às sextas-feiras, das 9h às 13h.
 - [17-09-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-02.md) Aula 2 - Raspando uma página em html e uma sequência de páginas com tabela
 - [24-09-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-03.md) Aula 3 - Raspando várias páginas em html de um portal de notícias
 - [01-10-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-04.md) Aula 4 - Formulários na web
-- [08-10-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-05.md) Aula 4 - Acessando APIs com R
-- [15-10-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-06.md) - Tópicos Extras
+- [08-10-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-05.md) Aula 5 - Acessando APIs com R
+- [15-10-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-06.md) - Tópicos Extras - Limpeza e prepração de textos com R
 - [22-19-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-07.md) - Tópicos Extras
 
 
