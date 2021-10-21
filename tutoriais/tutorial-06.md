@@ -255,7 +255,7 @@ library(rvest)
 ```
 
 
-O primeiro passo na captura de uma página de internet é criar um objeto que contenha o código HTML da página. Para tanto, usamos a função _read\_html_  do pacote _rvest_. Vamos usar a segunda página da busca pela palavra "merenda" na [Folha de São Paulo](http://www.folha.uol.com.br/) como exemplo:
+O primeiro passo na captura de uma página de internet é criar um objeto que contenha o código HTML da página. Para tanto, usamos a função _read\_html_  do pacote _rvest_. Vamos usar a segunda página da busca por "seade" na [Folha de São Paulo](http://www.folha.uol.com.br/) como exemplo:
 
 
 Note que a estrutura do endereço URL da página 1 da busca é relativamente simples: [https://search.folha.uol.com.br/?q=seade&site=todos](https://search.folha.uol.com.br/?q=seade&site=todos).

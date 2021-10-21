@@ -1,4 +1,4 @@
-# Aula 5 - Limpeza e preparação de textos com R
+# Aula 6 - Limpeza e preparação de textos com R
 
 ## Objetivos gerais
 
@@ -14,8 +14,4 @@
 3 - Ao terminar o tutorial, se quiser aprender sobre expressões regulares e algumas funções do pacote _stringr_ que não utilizamos recomendo duas leituras: a [sessão sobre o pacote _stringr_ do livro "Ciência de dados em R"](https://livro.curso-r.com/7-4-o-pacote-stringr.html) do curso-r, em português, e o [capítulo em inglês sobre manipulação de strings do livro "R for Data Science"](https://r4ds.had.co.nz/strings.html).
 
 4 - Finalmente, o [Tutorial 13](https://github.com/seade-R/raspagem-dados-r/blob/main/tutoriais/tutorial-13.md) utiliza o mesmo exemplo do Tutorial 12 (textos artigos científicos) para introduzir o pacote _tidytext_, que é extremamente eficaz na preparação de um conjunto de textos para análise. 
-
-
-, [Tutorial 8](https://github.com/seade-R/raspagem-dados-r/blob/main/tutoriais/tutorial-08.md)
-
 
