@@ -71,3 +71,54 @@ texto_boletim <- str_replace_all(texto_boletim, "/t", "")
 texto_boletim <- str_replace_all(texto_boletim, "\n", "")
 texto_boletim <- str_to_lower(texto_boletim)
 ```
+
+É difícil encontrar a informação que nos interesse num texto tão sem estutura. Vamos começar, dessa forma, examinando os caracteres que estão ao redor do número de óbitos do último boletim.
+
+OBS: certifique-se de que está trabalhando com o mesmo boletim. Caso contrário, o número de óbitos do dia será diferente:
+
+```{r}
+str_locate(texto_boletim, '151.386')
+```
+
+Com "str\_locate" localizamos a posição do primeiro e do último digítido da informação que buscamos (use "str\_locate\_all" se houver mais de uma ocorrência do padrão buscado no texto).
+
+Vamos usar a função "str\_sub" para examinar o trecho ao redor do número de óbitos no estado naquele dia:
+
+```{r}
+str_sub(texto_boletim, 100, 350)
+```
+
+Note que há um padrão, pois a informação vem precedidade de um caracter especial e sucedida por outro. Vamos, assim novamente com "str\_locate" vamos delimitir onde começa e onde termina a informação desejada SEM depender da própria informação, que varia a cada versão do documento:
+
+```{r}
+inicio <- str_locate(texto_boletim, '¥')[1] + 1
+fim <- str_locate(texto_boletim, '¥*fonte')[1] - 3
+obitos <- str_sub(texto_boletim, inicio, fim)
+```
+
+Pronto. Vamos agora aplica a mesma regra de busca do número de óbitos a mais documentos e ver se funciona.
+
+## Documentos pdf em loop
+
+Aproveitando a regra que criamos acima, vamos extrair a informação dos nove documentos que baixamos. Veja a construção do código abaixo e tente compreendê-lo:
+
+```{r}
+serie_obitos <- c()
+
+for(boletim in list.files('boletins_cve')){
+  texto_boletim <- pdf_text(paste0('boletins_cve/', boletim))
+  texto_boletim <- str_replace_all(texto_boletim, " ", "")
+  texto_boletim <- str_replace_all(texto_boletim, "/t", "")
+  texto_boletim <- str_replace_all(texto_boletim, "\n", "")
+  texto_boletim <- str_to_lower(texto_boletim)
+  inicio <- str_locate(texto_boletim, '¥')[1] + 1
+  fim <- str_locate(texto_boletim, '¥*fonte')[1] - 3
+  serie_obitos <- c(serie_obitos, str_sub(texto_boletim, inicio, fim))
+}
+
+serie_obitos <- rev(serie_obitos)
+serie_obitos <- as.numeric(serie_obitos)
+```
+
+Pronto! Temos agora uma série de 9 dias do número acumulado de óbitos por coronavírus confirmados e notificados no Estado de São Paulo extraída dos boletins diários!
+

@@ -22,7 +22,7 @@ Virtual, às sextas-feiras, das 9h às 13h.
 - [04-11-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-04.md) Aula 4 - Formulários na web
 - [11-11-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-05.md) Aula 5 - Acessando APIs com R
 - [18-11-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-06.md) - Tópicos Extras - Limpeza e prepração de textos com R
-- [25-11-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-07.md) - Tópicos Extras
+- [25-11-2021](https://github.com/seade-R/raspagem-dados-r/blob/main/aulas/aula-07.md) - Tópicos Extras -Preparação para mineração de texto e extração de arquivos de pdf
 
 ## Informações básicas TURMA 1
 
