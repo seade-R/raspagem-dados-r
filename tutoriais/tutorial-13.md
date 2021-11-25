@@ -300,9 +300,9 @@ Repetindo o procedimento para "trigrams":
 artigos_scielo %>%
   unnest_tokens(trigram, texto, token = "ngrams", n = 3) %>%
   separate(trigram, c("word1", "word2", "word3"), sep = " ") %>%
-  anti_join(stopwords_pt, by = c("word1" = "word")) %>%
-  anti_join(stopwords_pt, by = c("word2" = "word")) %>%
-  anti_join(stopwords_pt, by = c("word3" = "word")) %>%
+  anti_join(stopwords_df, by = c("word1" = "word")) %>%
+  anti_join(stopwords_df, by = c("word2" = "word")) %>%
+  anti_join(stopwords_df, by = c("word3" = "word")) %>%
   count(word1, word2, word3, sort = TRUE)
 ```
 
