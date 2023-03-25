@@ -12,7 +12,7 @@ library(stringr)
 library(stringi)
 ```
 
-Além disso, utilizaremos um banco de dados de artigos científicos coletados na plataforma SciELO no âmbito do projeto SEADE-IA:
+Além disso, utilizaremos um banco de dados de artigos científicos coletados da plataforma SciELO no âmbito do projeto SEADE-IA:
 
 ``` r
 artigos_scielo <- readRDS('scielo_basefinal_coleta_202211.rds')
